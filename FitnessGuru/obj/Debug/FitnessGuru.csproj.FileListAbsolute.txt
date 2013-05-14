@@ -1,0 +1,13 @@
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\bin\Debug\FitnessGuru.exe.config
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\bin\Debug\FitnessGuru.exe
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\bin\Debug\FitnessGuru.pdb
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\obj\Debug\FitnessGuru.csprojResolveAssemblyReference.cache
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\obj\Debug\MainWindow.baml
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\obj\Debug\MainWindow.g.cs
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\obj\Debug\App.g.cs
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\obj\Debug\FitnessGuru_MarkupCompile.cache
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\obj\Debug\FitnessGuru.g.resources
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\obj\Debug\FitnessGuru.Properties.Resources.resources
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\obj\Debug\FitnessGuru.csproj.GenerateResource.Cache
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\obj\Debug\FitnessGuru.exe
+C:\Users\Milan\Documents\School\Semester 04\Windows GUI Development\Week 01\FitnessGuru\FitnessGuru\obj\Debug\FitnessGuru.pdb

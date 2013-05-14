@@ -1,0 +1,51 @@
+﻿<Window x:Class="FitnessGuru.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Fitness Guru Inc." Height="679.716" Width="352.435" Loaded="Window_Loaded_1" Closing="Window_Closing_1">
+    <Grid HorizontalAlignment="Left" Width="345" Margin="0,0,0,5.2">
+        <GroupBox x:Name="GroupBoxPersonalInfo" Header="Personal Information" HorizontalAlignment="Left" Height="377" Margin="10,10,0,0" VerticalAlignment="Top" Width="325">
+            <Grid HorizontalAlignment="Left" Height="355" Margin="10,10,-12,-9.8" VerticalAlignment="Top" Width="310">
+                <Label Content="First Name:" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="69" Margin="0,-1,0,0"/>
+                <Label Content="Last Name:" HorizontalAlignment="Left" Height="30" Margin="0,29,0,0" VerticalAlignment="Top" Width="69"/>
+                <Label Content="DOB(year/month/day):" HorizontalAlignment="Left" Height="30" Margin="0,64,0,0" VerticalAlignment="Top" Width="134"/>
+                <Label Content="Address:" HorizontalAlignment="Left" Height="30" Margin="0,99,0,0" VerticalAlignment="Top" Width="69"/>
+                <Label Content="City:" HorizontalAlignment="Left" Height="30" Margin="0,129,0,0" VerticalAlignment="Top" Width="69"/>
+                <Label Content="Province:" HorizontalAlignment="Left" Height="30" Margin="0,159,0,0" VerticalAlignment="Top" Width="69"/>
+                <Label Content="Postal Code:" HorizontalAlignment="Left" Height="30" Margin="0,194,0,0" VerticalAlignment="Top" Width="78"/>
+                <Label Content="Comments:" HorizontalAlignment="Left" Height="30" Margin="0,224,0,0" VerticalAlignment="Top" Width="78"/>
+                <TextBox x:Name="TextBoxFN" HorizontalAlignment="Left" Height="24" Margin="74,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" MaxLength="50"/>
+                <TextBox x:Name="TextBoxLN" HorizontalAlignment="Left" Height="24" Margin="74,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" MaxLength="50"/>
+                <ComboBox x:Name="ComboBoxDOBYear" HorizontalAlignment="Left" Height="24" Margin="134,64,0,0" VerticalAlignment="Top" Width="57" RenderTransformOrigin="0.937,4.964" SelectionChanged="ComboBoxDOBYear_SelectionChanged"/>
+                <ComboBox x:Name="ComboBoxDOBMonth" HorizontalAlignment="Left" Height="24" Margin="196,64,0,0" VerticalAlignment="Top" Width="57" RenderTransformOrigin="0.937,4.964" SelectionChanged="ComboBoxDOBMonth_SelectionChanged"/>
+                <ComboBox x:Name="ComboBoxDOBDay" HorizontalAlignment="Left" Height="24" Margin="258,64,0,0" VerticalAlignment="Top" Width="42" RenderTransformOrigin="0.937,4.964"/>
+                <TextBox x:Name="TextBoxAddress" HorizontalAlignment="Left" Height="24" Margin="74,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" MaxLength="50"/>
+                <TextBox x:Name="TextBoxCity" HorizontalAlignment="Left" Height="24" Margin="74,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" MaxLength="50"/>
+                <ComboBox x:Name="ComboBoxProvince" HorizontalAlignment="Left" Height="24" Margin="74,159,0,0" VerticalAlignment="Top" Width="43" RenderTransformOrigin="0.937,4.964"/>
+                <TextBox x:Name="TextBoxPC" HorizontalAlignment="Left" Height="24" Margin="74,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" MaxLength="7"/>
+                <TextBox x:Name="TextBoxComments" HorizontalAlignment="Left" Height="91" Margin="0,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="GroupBoxProgramInfo" Header="Fitness Program" HorizontalAlignment="Left" Height="219" Margin="10,392,0,0" VerticalAlignment="Top" Width="325">
+            <Grid HorizontalAlignment="Left" Height="193" Margin="0,10,-3,-6.2" VerticalAlignment="Top" Width="315">
+                <Label Content="Trainer:" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="51"/>
+                <ComboBox x:Name="ComboBoxTrainers" HorizontalAlignment="Left" VerticalAlignment="Top" Width="254" Margin="51,0,0,0"/>
+                <GroupBox x:Name="GroupBoxProgramLevel" Header="Program Level" HorizontalAlignment="Left" Height="136" Margin="8,36,0,0" VerticalAlignment="Top" Width="129">
+                    <Grid HorizontalAlignment="Left" Height="133" Margin="0,0,-13,-19.4" VerticalAlignment="Top" Width="129">
+                        <RadioButton x:Name="RadioButtonExperienced" Content="Experienced" HorizontalAlignment="Left" Height="24" Margin="10,43,0,0" VerticalAlignment="Top" Width="98" Checked="RadioButtonExperienced_Checked"/>
+                        <RadioButton x:Name="RadioButtonExpert" Content="Expert" HorizontalAlignment="Left" Height="24" Margin="10,72,0,0" VerticalAlignment="Top" Width="98" Checked="RadioButtonExpert_Checked"/>
+                        <RadioButton x:Name="RadioButtonBeginner" Content="Beginner" HorizontalAlignment="Left" Height="24" Margin="10,14,0,0" VerticalAlignment="Top" Width="98" Checked="RadioButtonBeginner_Checked"/>
+                    </Grid>
+                </GroupBox>
+                <GroupBox x:Name="GroupBoxBillInfo" Header="Billing Information" HorizontalAlignment="Left" Height="136" Margin="142,36,0,0" VerticalAlignment="Top" Width="163">
+                    <Grid HorizontalAlignment="Left" Height="126" Margin="0,0,-2.6,-12.4" VerticalAlignment="Top" Width="153">
+                        <CheckBox x:Name="CheckBoxDD" Content="Direct Debit" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Checked="CheckBoxDD_Checked" Unchecked="CheckBoxDD_Unchecked"/>
+                        <CheckBox x:Name="CheckBoxMonthly" Content="Monthly" HorizontalAlignment="Left" Margin="10,43,0,0" VerticalAlignment="Top" Checked="CheckBoxMonthly_Checked" Unchecked="CheckBoxMonthly_Unchecked"/>
+                        <CheckBox x:Name="CheckBoxAnnual" Content="Annual Contract" HorizontalAlignment="Left" Margin="10,78,0,0" VerticalAlignment="Top" Checked="CheckBoxAnnual_Checked" Unchecked="CheckBoxAnnual_Unchecked"/>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="ButtonCancel" Content="Cancel" HorizontalAlignment="Left" Margin="255,616,0,0" VerticalAlignment="Top" Width="75" Click="ButtonCancel_Click"/>
+        <Button x:Name="ButtonSubmit" Content="Submit" HorizontalAlignment="Left" Margin="175,616,0,0" VerticalAlignment="Top" Width="75" Click="ButtonSubmit_Click"/>
+    </Grid>
+</Window>
